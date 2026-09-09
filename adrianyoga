@@ -1,0 +1,8 @@
+git clone <URL_GITHUB_ANDA>
+cd <NAMA_FOLDER_REPO># Untuk Windows
+python -m venv venv
+venv\Scripts\activate
+
+# Untuk macOS / Linux
+python3 -m venv venv
+source venv/bin/activatepip install opencv-python mediapipe numpypython main.py
